@@ -1,82 +1,82 @@
 <template>
   <div class="container">
 
-    <header>
-      <ul class="HeaderMenu">
-        <li>
-          <img src="https://pbs.twimg.com/profile_banners/1379607294372110337/1633284987/1500x500" alt="CardanoWarriors" width="200px" height="100px">
-        </li>
+  <header>
+    <ul class="HeaderMenu">
+      <li>
+        <img src="https://pbs.twimg.com/profile_banners/1379607294372110337/1633284987/1500x500" alt="CardanoWarriors" width="200px" height="100px">
+      </li>
 
-        <li>
-          <a href="">
-            <span> Log out</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </header>
+      <li>
+        <a href="">
+          <span> Log out</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </header>
 
-    <div class="menu-content">
-      <div class="saudation">  
-        <h1>{{ msg }}</h1>
-        <small>{{ subMsg }}</small>
-      </div>
-      
-      <div class="row justify-content-end">       
-        <div class="col-sm-4">
-          <div class="box"> 
-            <span>04</span>
-            <p>Warriors ready to protect Cardania</p>
-          </div>
-        </div>
-        <div class="col-sm-4" >
-          <div class="box">
-            <span>58</span>
-            <p>CwP obtained with the claim of your warriors</p>
-          </div>
-        </div>
-        <div class="col-sm-4" >
-          <div class="box">
-            <span>01</span>
-            <p>Island that is being prepared for you</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-end">       
-        <div class="col-sm-6">
-          <div class="box2"> 
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-              </svg>
-              <span>Wallet Connected</span>
-            </div>
-            <div>
-              <span class="alert">{{ wallet }}</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6" >
-          <div class="box2">
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
-              </svg>
-              <span>Two-factor authentication not enabled</span>
-            </div>
-            <div>
-              <span class="alert">{{ enabled }}</span>
-            </div>
-          </div>
-        </div>        
-      </div>
-
+  <div class="menu-content">
+    <div class="saudation">  
+      <h1>{{ msg }}</h1>
+      <small>{{ subMsg }}</small>
     </div>
+    
+    <div class="row justify-content-end">       
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="box"> 
+          <span>04</span>
+          <p>Warriors ready to protect Cardania</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12" >
+        <div class="box">
+          <span>58</span>
+          <p>CwP obtained with the claim of your warriors</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12" >
+        <div class="box">
+          <span>01</span>
+          <p>Island that is being prepared for you</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-end">       
+      <div class="col-md-6 col-sm-12">
+        <div class="box2"> 
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+            </svg>
+            <span>Wallet Connected</span>
+          </div>
+          <div>
+            <span class="alert">{{ wallet }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12" >
+        <div class="box2">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+            </svg>
+            <span>Two-factor authentication not enabled</span>
+          </div>
+          <div>
+            <span class="alert">{{ enabled }}</span>
+          </div>
+        </div>
+      </div>        
+    </div>
+  </div>
+
   <div class="mt-5">
     <ul class="MenuLateral">
       <li>
@@ -131,8 +131,7 @@
       </li>      
     </ul>      
   </div>
-
-
+  
 </template>
 
 <script>
@@ -220,6 +219,7 @@ a {
   display: flex;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 20px;
 
 }
 .box > span{
@@ -239,5 +239,13 @@ a {
 .box2 .alert{
   padding: 10px;
   background: #00000085;
+}
+@media (max-width: 768px) {
+  .MenuLateral,.MenuLateral2{
+    display: none;
+    }
+    .menu-content{
+      width: 100%;
+    }
 }
 </style>

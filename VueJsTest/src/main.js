@@ -7,6 +7,7 @@ import bootstrap from './bootstrap'
 
 Vue.config.productionTip = false
 Vue.use(bootstrap);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
