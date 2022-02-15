@@ -56,7 +56,7 @@
               <span>Wallet Connected</span>
             </div>
             <div>
-              <span class="alert">wallet</span>
+              <span class="alert">{{ wallet }}</span>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
               <span>Two-factor authentication not enabled</span>
             </div>
             <div>
-              <span class="alert">enabled</span>
+              <span class="alert">{{ enabled }}</span>
             </div>
           </div>
         </div>        
@@ -142,6 +142,8 @@ export default {
     return {
       msg: 'Hi, Warrior!',
       subMsg: 'This is a little about you..',
+      wallet: 'WALLET',
+      enabled: 'ENABLE',
     }
   }
 }
