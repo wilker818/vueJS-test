@@ -9,19 +9,19 @@
       </div>
 
       <div class="row justify-content-end">
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="box">
             <span>04</span>
             <p>Warriors ready to protect Cardania</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="box">
             <span>58</span>
             <p>CwP obtained with the claim of your warriors</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="box">
             <span>01</span>
             <p>Island that is being prepared for you</p>
